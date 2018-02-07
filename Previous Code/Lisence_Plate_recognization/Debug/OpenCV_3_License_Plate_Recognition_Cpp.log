@@ -1,0 +1,22 @@
+﻿Build started 10/23/2016 8:26:30 PM.
+     1>Project "c:\Users\Surabhi\documents\visual studio 2013\Projects\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DetectChars.cpp DetectPlates.cpp Main.cpp PossibleChar.cpp PossiblePlate.cpp Preprocess.cpp
+         Preprocess.cpp
+     1>c:\users\surabhi\documents\visual studio 2013\projects\opencv_3_license_plate_recognition_cpp\opencv_3_license_plate_recognition_cpp\preprocess.h(6): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         PossiblePlate.cpp
+     1>c:\users\surabhi\documents\visual studio 2013\projects\opencv_3_license_plate_recognition_cpp\opencv_3_license_plate_recognition_cpp\possibleplate.h(8): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         PossibleChar.cpp
+     1>c:\users\surabhi\documents\visual studio 2013\projects\opencv_3_license_plate_recognition_cpp\opencv_3_license_plate_recognition_cpp\possiblechar.h(6): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         Main.cpp
+     1>c:\users\surabhi\documents\visual studio 2013\projects\opencv_3_license_plate_recognition_cpp\opencv_3_license_plate_recognition_cpp\main.h(6): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         DetectPlates.cpp
+     1>c:\users\surabhi\documents\visual studio 2013\projects\opencv_3_license_plate_recognition_cpp\opencv_3_license_plate_recognition_cpp\detectplates.h(6): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         DetectChars.cpp
+     1>c:\users\surabhi\documents\visual studio 2013\projects\opencv_3_license_plate_recognition_cpp\opencv_3_license_plate_recognition_cpp\detectchars.h(6): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "c:\Users\Surabhi\documents\visual studio 2013\Projects\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.89
